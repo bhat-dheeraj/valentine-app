@@ -54,6 +54,7 @@ const watchOptions = [
   { id: "movie_5", label: "Dhadak 2 🎬" },
   { id: "movie_6", label: "Bhool Chuk Maaf 🎬" },
   { id: "series_5", label: "Choose a movie/show on the date" },
+  {id:  "series_6", label:"Suprise me with a show/movie"}
 ];
 
 const gameOptions = [
@@ -67,6 +68,7 @@ const gameOptions = [
   { id: "game_8", label: "Online board games (Ludo, etc.) 🎲" },
   { id: "game_9", label: "Card games (Uno, etc.) 🎴" },
   { id: "game_10", label: "Choose a game on the date" },
+  {id:  "game_11", label:"Suprise me with a game"}
 ];
 
 const chatOptions = [
@@ -77,10 +79,10 @@ const chatOptions = [
   { id: "chat_5", label: "This-or-That 💞" },
   { id: "chat_6", label: "20 Questions" },
   { id: "chat_7", label: "Truth or dare 🎲" },
-  { id: "chat_8", label: "Choose randomly on the day" },
   { id: "chat_9", label: "Share memes and cute videos" },
   { id: "chat_10", label: "Story Builder" },
   { id: "chat_11", label: "Choose a chatting topic/game on the date" },
+  { id: "chat_12", label: "Suprise me (Chat)" },
 ];
 
 const dinnerMoods = [
@@ -108,6 +110,8 @@ const foodItems = [
   { id: "Drinks", label: "Drink of choice🥤" },
   { id: "craving of the day", label: "Craving of the day 🎁" },
   { id: "cook together", label: "Cook Together 🍳" },
+  
+  {id:  "series_6", label:"Suprise me with any food"}
 ];
 
 const STORAGE_KEY_BUILDER = "valentine_builder_state_v1";
