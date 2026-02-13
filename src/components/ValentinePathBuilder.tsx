@@ -53,7 +53,7 @@ const watchOptions = [
   { id: "movie_4", label: "Happy Patel: Khatarnak Jasoos 🎬" },
   { id: "movie_5", label: "Dhadak 2 🎬" },
   { id: "movie_6", label: "Bhool Chuk Maaf 🎬" },
-  { id: "series_5", label: "Choose a movie/show on the day" },
+  { id: "series_5", label: "Choose a movie/show on the date" },
 ];
 
 const gameOptions = [
@@ -66,7 +66,7 @@ const gameOptions = [
   { id: "game_7", label: "Dumb Charades 🎭" },
   { id: "game_8", label: "Online board games (Ludo, etc.) 🎲" },
   { id: "game_9", label: "Card games (Uno, etc.) 🎴" },
-  { id: "game_10", label: "Choose a game on the day" },
+  { id: "game_10", label: "Choose a game on the date" },
 ];
 
 const chatOptions = [
@@ -80,7 +80,7 @@ const chatOptions = [
   { id: "chat_8", label: "Choose randomly on the day" },
   { id: "chat_9", label: "Share memes and cute videos" },
   { id: "chat_10", label: "Story Builder" },
-  { id: "chat_11", label: "Choose a chatting topic/game on the day" },
+  { id: "chat_11", label: "Choose a chatting topic/game on the date" },
 ];
 
 const dinnerMoods = [
@@ -97,7 +97,7 @@ const foodItems = [
   { id: "noodles", label: "Chinese 🍜" },
   { id: "biryani", label: "Biryani 🍛" },
   { id: "Shawarma", label: "Shawarma 🍔" },
-  { id: "Snacks", label: "Lays, crax, etc. 🍟" },
+  { id: "Snacks", label: "Snacks(Lays, crax, etc.) 🍟" },
   { id: "Chole puri", label: "Chole Puri 🍛" },
   {
     id: "Prawns fry/Prawns hinga udda/ crab",

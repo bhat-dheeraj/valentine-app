@@ -210,9 +210,6 @@ export default function LoveLetterReveal() {
                           >
                             {opened ? typed : ""}
                           </Typography>
-                          <Typography sx={{ opacity: 0.85 }}>
-                            (tap to read the full letter)
-                          </Typography>
                         </Paper>
                       </motion.div>
 
@@ -341,7 +338,8 @@ export default function LoveLetterReveal() {
                     </Typography>
 
                     <Typography sx={{ fontSize: "1rem", mb: 1.5 }}>
-                      Happy Valentine’s Day ❤️ And Very Happy Engagement Anniversary 🥰🥰
+                      Happy Valentine’s Day ❤️ And Very Happy Engagement
+                      Anniversary 🥰🥰
                     </Typography>
 
                     <Typography sx={{ fontSize: "1.05rem", lineHeight: 1.9 }}>
@@ -350,7 +348,9 @@ export default function LoveLetterReveal() {
                       that's something I never take for granted. Being with you has changed me in the best way. With you every single day feels so special.`}
                     </Typography>
 
-                    <Typography sx={{ fontSize: "1.05rem", lineHeight: 1.9 , mt: 2}}>
+                    <Typography
+                      sx={{ fontSize: "1.05rem", lineHeight: 1.9, mt: 2 }}
+                    >
                       {`Even when we're not in the same city, You're always in my heart. In the way I smile at random thoughts of you, in the way I look forward to our calls, 
                       in the way I plan a future that always includes you.I made this little page for you because I wanted to do something special and different this valentines day. 
                       A little playful. A little dramatic. But completely sincere.`}
@@ -376,7 +376,7 @@ export default function LoveLetterReveal() {
                     <Typography
                       sx={{ fontSize: "1.05rem", lineHeight: 1.9, mt: 1 }}
                     >
-                      I want chaotic travel days.
+                      I want exciting travel days.
                     </Typography>
                     <Typography
                       sx={{ fontSize: "1.05rem", lineHeight: 1.9, mt: 1 }}
@@ -444,10 +444,44 @@ export default function LoveLetterReveal() {
                       Until then, I&apos;ll keep choosing you. Every time.
                     </Typography>
 
+                    <Typography
+                      sx={{
+                        fontFamily: "'Caveat', cursive",
+                        fontSize: "1.6rem",
+                        color: "#ff4d6d",
+                        mt: 2,
+                      }}
+                    >
+                      I love youuuuuu 💋
+                    </Typography>
+
+                    <Typography sx={{ mt: 3, fontWeight: 800 }}>
+                      Yours always, ❤️
+                    </Typography>
+                    <Typography
+                      sx={{
+                        fontFamily: "'Caveat', cursive",
+                        fontSize: "1.6rem",
+                      }}
+                    >
+                      Babulushu
+                    </Typography>
+
+                    <Box
+                      component="img"
+                      src={"/images/kiss1.gif"}
+                      alt={"Kiss"}
+                      sx={{
+                        width: "auto",
+                        objectFit: "cover", // ✅ key fix
+                        display: "block",
+                      }}
+                    />
+
                     {plan && (
                       <Box sx={{ mt: 2 }}>
                         <Typography sx={{ fontWeight: 800, mb: 1 }}>
-                          Valentines day plan. Virtual date night 😍
+                          Virtual date night plan using your choices 😍
                         </Typography>
 
                         {plan?.summary?.length ? (
@@ -485,19 +519,7 @@ export default function LoveLetterReveal() {
 
                     <Typography sx={{ mt: 2 }}>
                       I can&apos;t wait for our date night. No matter what you
-                      choose, as long as it&apos;s with you, I&apos;m extremely happy.
-                    </Typography>
-
-                    <Typography sx={{ mt: 3, fontWeight: 800 }}>
-                      Yours always, ❤️
-                    </Typography>
-                    <Typography
-                      sx={{
-                        fontFamily: "'Caveat', cursive",
-                        fontSize: "1.6rem",
-                      }}
-                    >
-                      Babulushu
+                      chose, as long as it&apos;s with you, I&apos;m happy.
                     </Typography>
                   </Paper>
 
