@@ -15,66 +15,81 @@ interface Props {
 const polaroids = [
   {
     src: "/images/together/photo1.jpg",
-    caption: "One the best days of my life. The first day we met",
+    caption:
+      "The day we met in person. Still one of the best days of my life ❤️",
   },
   {
     src: "/images/together/photo2.jpg",
-    caption: "You, me and beautiful skies 😍",
+    caption: "Just you, me, and the most beautiful skies 🌅",
   },
   {
     src: "/images/together/photo3.jpg",
-    caption: "I love it when you sleep in my arms 😋",
+    caption: "My favorite place is when you fall asleep in my arms 🥺",
   },
-  { src: "/images/together/photo4.jpg", caption: "Our first date 🥰" },
-  { src: "/images/together/photo5.jpg", caption: "Our first theru 🥰" },
-  { src: "/images/together/photo6.jpg", caption: "Our first okkul 😍" },
+  { src: "/images/together/photo4.jpg", caption: "Our very first date 🥰" },
+  {
+    src: "/images/together/photo5.jpg",
+    caption: "Our first Theru together 💕",
+  },
+  {
+    src: "/images/together/photo6.jpg",
+    caption: "Our first Okkul. It was so fun and special ❤️",
+  },
   {
     src: "/images/together/photo7.jpg",
-    caption: "I love feeding my baby doll 😋",
+    caption: "Feeding my baby doll will forever be my favorite thing 😋",
   },
-  { src: "/images/together/photo8.jpg", caption: "Every little moment. My constant  ❤️" },
+  {
+    src: "/images/together/photo8.jpg",
+    caption: "Every little moment with you feels like magic ✨",
+  },
   {
     src: "/images/together/photo9.jpg",
-    caption: "I was so happy when you said yes 🥰",
+    caption: "The happiest moment. When you said yes 🥹💍",
   },
   {
     src: "/images/together/photo10.jpg",
-    caption: "How can the animated you look soooo cute 😍",
+    caption: "Even the animated version of you is impossibly cute 😍",
   },
   {
     src: "/images/together/photo11.jpg",
-    caption: "Our first dance together. It was so amazing 😍",
+    caption: "Our first dance and it already felt like forever 💃❤️",
   },
   {
     src: "/images/together/photo12.jpg",
-    caption: "I miss kissing you so much",
+    caption: "I miss kissing you more than words can explain 💋",
   },
   {
     src: "/images/together/photo13.jpg",
-    caption: "One of my favorite places to kiss. ❤️",
+    caption: "One of my favorite places to steal a kiss ❤️",
   },
   {
     src: "/images/together/photo14.jpg",
-    caption: "We are engaged now! I still can't believe it 🥰",
+    caption: "We're engaged… and I still can't believe we are married 🥰",
   },
   {
     src: "/images/together/photo15.jpg",
-    caption: "One of the happiest days of my life. The day we got married 🥰",
+    caption: "The day we got married. The happiest chapter of my life 💍❤️",
   },
-  { src: "/images/together/photo17.jpg", caption: "PDA 😝😝" },
+  {
+    src: "/images/together/photo17.jpg",
+    caption: "PDA? Absolutely worth it 😝❤️",
+  },
   {
     src: "/images/together/photo18.jpg",
-    caption: "So much fun. Even when the outcome was pre-planned 😝",
+    caption: "So much fun… even if the outcome was suspiciously planned 😝",
   },
-  { src: "/images/together/photo19.jpg", caption: "PDA (Part 2) 😝😝" },
+  {
+    src: "/images/together/photo19.jpg",
+    caption: "PDA (Part 2)… no regrets 😏❤️",
+  },
   {
     src: "/images/together/photo20.jpg",
-    caption: "Will never let go of your hand ❤️",
+    caption: "I will never let go of your hand 🤝❤️",
   },
   {
     src: "/images/together/photo21.jpg",
-    caption:
-      "You tho are flawless. But You also always make me look so good in photos 😍",
+    caption: "You're flawless, and somehow you make me look good too 😍",
   },
   {
     src: "/images/together/photo22.jpg",
@@ -82,81 +97,97 @@ const polaroids = [
   },
   {
     src: "/images/together/photo23.jpg",
-    caption: "Walking down the aisle with you was so beautiful ❤️",
+    caption: "Walking down the aisle with you felt like a dream ❤️",
   },
 ];
 
 const polaroids2 = [
   {
     src: "/images/baby/photo1.jpg",
-    caption: "How can someone look so beautiful 💕",
+    caption: "How can someone be this beautiful? 💕",
   },
   {
     src: "/images/baby/photo2.jpg",
-    caption: "Loved how you surprised me with a dance 🥰",
+    caption: "That surprise dance made my heart explode 🥰",
   },
-  { src: "/images/baby/photo3.jpg", caption: "My pretty baby in yellow 😍" },
+  {
+    src: "/images/baby/photo3.jpg",
+    caption: "My pretty baby glowing in yellow 💛",
+  },
   {
     src: "/images/baby/photo4.jpg",
-    caption: "You look chooo cute in that shawl 😍",
+    caption: "You looked chooooo cute in that shawl 😍",
   },
   {
     src: "/images/baby/photo5.jpg",
-    caption: "Yo yo. Thats my cool and gorgeous wifeyyy 🥰",
+    caption: "That's my cool and gorgeous wifeyyy 😎❤️",
   },
   {
     src: "/images/baby/photo6.jpg",
-    caption: "Seriously though. You looked like a goddess 💕",
+    caption: "You looked like a goddess here. Divine ✨",
   },
   {
     src: "/images/baby/photo7.jpg",
-    caption: "My baby just dancing and having fun. I love it so much 🥰",
+    caption: "Seeing you dance and laugh like that makes me so happy 🥰",
   },
   {
     src: "/images/baby/photo8.jpg",
-    caption: "The most beautiful bride ever 💕",
+    caption: "The most beautiful bride in the world 💕",
   },
   {
     src: "/images/baby/photo9.jpg",
-    caption: "That smile tho. I can never get enough of it 😍",
+    caption: "That smile. I could stare at it forever 😍",
   },
   {
     src: "/images/baby/photo10.jpg",
-    caption: "Aaaaaaah. I want to squeeze those cheeks 😍",
+    caption: "I just want to squeeze those cheeks so badly 😭❤️",
   },
-  { src: "/images/baby/photo11.jpg", caption: "Cant get enough of you 😍" },
+  {
+    src: "/images/baby/photo11.jpg",
+    caption: "I can never get enough of you 😍",
+  },
   {
     src: "/images/baby/photo12.jpg",
-    caption: "That gorgeous little face was glowing under all those flowers.",
+    caption: "You were glowing under those flowers 🌸",
   },
-  { src: "/images/baby/photo13.jpg", caption: "My baby in the wild 😋" },
+  {
+    src: "/images/baby/photo13.jpg",
+    caption: "My baby in the wild and I love it 😋",
+  },
   {
     src: "/images/baby/photo14.jpg",
-    caption: "You look sooooo cute while sleeping 😍",
+    caption: "You look ridiculously cute when you sleep 🥺",
   },
   {
     src: "/images/baby/photo15.jpg",
-    caption: "How can some look so beautiful and goofy at the same time? 😍",
+    caption:
+      "How can someone be this beautiful and this goofy at the same time? 😍",
   },
-  { src: "/images/baby/photo17.jpg", caption: "Love every moment with you ❤️" },
+  {
+    src: "/images/baby/photo17.jpg",
+    caption: "Every moment with you is my favorite ❤️",
+  },
   {
     src: "/images/baby/photo20.jpg",
-    caption: "I love it when you lean on my shoulder 😍",
+    caption: "I love when you lean on my shoulder like that 😍",
   },
   {
     src: "/images/baby/photo21.png",
-    caption: "Me you and the beautiful scenery. I love it all 😍",
+    caption: "You, me, and the beautiful scenary around us. Perfect 🌍❤️",
   },
   {
     src: "/images/baby/photo22.jpg",
-    caption: "Theru with you was so much fun.",
+    caption: "Theru with you was pure happiness 💕",
   },
-  { src: "/images/baby/photo23.jpg", caption: "Twinnnnninnnng 😍" },
+  { src: "/images/baby/photo23.jpg", caption: "Twinnnnnning and winning 😍" },
   {
     src: "/images/baby/photo24.jpg",
-    caption: "I wish I could hug you so tight right now. I miss you",
+    caption: "I wish I could hug you tight right now… I miss you so much 💌",
   },
-  { src: "/images/baby/photo25.jpg", caption: "Missing you always 💌" },
+  {
+    src: "/images/baby/photo25.jpg",
+    caption: "Missing you a little extra today ❤️",
+  },
 ];
 
 export default function ResponsivePolaroidCarousel({
