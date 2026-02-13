@@ -3,7 +3,7 @@
 import { Box, Button, Paper, Typography, IconButton } from "@mui/material";
 import { AnimatePresence, motion } from "framer-motion";
 import confetti from "canvas-confetti";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useState } from "react";
 import CloseIcon from "@mui/icons-material/Close";
 
 type SavedPlan = {
@@ -366,7 +366,7 @@ export default function LoveLetterReveal() {
                     <Typography
                       sx={{ fontSize: "1.05rem", lineHeight: 1.9, mt: 2 }}
                     >
-                      I don't just want Valentine's Day with you.
+                      I don&apos;t just want Valentine&apos;s Day with you.
                     </Typography>
                     <Typography
                       sx={{ fontSize: "1.05rem", lineHeight: 1.9, mt: 1 }}
@@ -415,7 +415,7 @@ export default function LoveLetterReveal() {
                       sx={{ fontSize: "1.05rem", lineHeight: 1.9, mt: 2 }}
                     >
                       No matter how far apart we are right now, I know this is
-                      temporary. What we're building is permanent.
+                      temporary. What we&apos;re building is permanent.
                     </Typography>
                     <Typography
                       sx={{ fontSize: "1.05rem", lineHeight: 1.9, mt: 1 }}
@@ -435,13 +435,13 @@ export default function LoveLetterReveal() {
                     <Typography
                       sx={{ fontSize: "1.05rem", lineHeight: 1.9, mt: 2 }}
                     >
-                      And I promise one day soon we won't have to celebrate
+                      And I promise one day soon we won&apos;t have to celebrate
                       through screens.
                     </Typography>
                     <Typography
                       sx={{ fontSize: "1.05rem", lineHeight: 1.9, mt: 2 }}
                     >
-                      Until then, I'll keep choosing you. Every time.
+                      Until then, I&apos;ll keep choosing you. Every time.
                     </Typography>
 
                     {plan && (
@@ -484,8 +484,8 @@ export default function LoveLetterReveal() {
                     )}
 
                     <Typography sx={{ mt: 2 }}>
-                      I can't wait for our date night. No matter what you
-                      choose, as long as it's with you, I'm extremely happy.
+                      I can&apos;t wait for our date night. No matter what you
+                      choose, as long as it&apos;s with you, I&apos;m extremely happy.
                     </Typography>
 
                     <Typography sx={{ mt: 3, fontWeight: 800 }}>

@@ -10,17 +10,7 @@ import { useState } from "react";
 
 export default function MusicBar() {
   const { current, isPlaying, toggle, next, prev, isSwitching } = useMusic();
-  const [blocked, setBlocked] = useState(false);
-
-  const safeToggle = async () => {
-    setBlocked(false);
-    try {
-      await toggle();
-    } catch {
-      // If autoplay was blocked, user can just tap again (after any gesture)
-      setBlocked(true);
-    }
-  };
+  const [blocked] = useState(false);
 
   return (
     <AppBar

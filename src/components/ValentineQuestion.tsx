@@ -2,7 +2,7 @@
 
 import { Box, Typography, Button } from "@mui/material";
 import { motion } from "framer-motion";
-import { useEffect, useState } from "react";
+import { MouseEvent, useEffect, useState } from "react";
 import confetti from "canvas-confetti";
 import { useMusic } from "./music/MusicProvider";
 
@@ -38,7 +38,7 @@ export default function ValentineQuestion({ onYes }: Props) {
     setNoPosition({ x: randomX, y: randomY });
   };
 
-  const handleYes = (e) => {
+  const handleYes = (e: MouseEvent<HTMLButtonElement>) => {
     e.stopPropagation();
     play().catch(() => {});
     localStorage.setItem("music_unlocked", "true");
