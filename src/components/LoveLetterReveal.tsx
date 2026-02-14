@@ -64,10 +64,10 @@ export default function LoveLetterReveal() {
   const handleOpen = () => {
     setOpened(true);
     confetti({
-      particleCount: 90,
-      spread: 60,
-      startVelocity: 18,
-      colors: ["#ff4d6d", "#ff8fab", "#ffffff"],
+      particleCount: 250,
+      spread: 90,
+      colors: ["#ff002f", "#3d3d3d", "#ff5f7d", "#000000"],
+      gravity: 1.2
     });
   };
 

@@ -3,6 +3,7 @@
 import React, {
   createContext,
   useContext,
+  useEffect,
   useMemo,
   useRef,
   useState,
@@ -78,6 +79,12 @@ export function MusicProvider({
   tracks?: Track[];
 }) {
   const audioRef = useRef<HTMLAudioElement | null>(null);
+
+  useEffect(() => {
+    if (audioRef.current) {
+      audioRef.current.volume = 0.25;
+    }
+  }, []);
 
   const [index, setIndexState] = useState(0);
   const [isPlaying, setIsPlaying] = useState(false);

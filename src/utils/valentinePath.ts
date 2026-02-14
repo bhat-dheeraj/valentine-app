@@ -3,6 +3,7 @@ import {
   TimelineItem,
   CategoryId,
 } from "@/types/valentine";
+import confetti from "canvas-confetti";
 
 export const initialValentineState: ValentinePathState = {
   timeline: [],
@@ -122,3 +123,5 @@ export function reorderTimeline(
 
   return { ...state, timeline: reordered };
 }
+
+export const heart = confetti.shapeFromText({ text: "💖", scalar: 2 });

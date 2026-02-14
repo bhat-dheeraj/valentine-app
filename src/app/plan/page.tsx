@@ -12,8 +12,6 @@ export default function Plan() {
 
   return (
     <>
-      <BackgroundMusic play={true} />
-
       <AnimatePresence mode="wait">
         <Box
           sx={{
