@@ -179,7 +179,7 @@ const polaroids2 = [
     src: "/images/baby/photo22.jpg",
     caption: "Theru with you was pure happiness 💕",
   },
-  { src: "/images/baby/photo23.jpg", caption: "Twinnnnnning and winning 😍" },
+  { src: "/images/baby/photo23.jpg", caption: "Twinnnnnning with my babyyy😍" },
   {
     src: "/images/baby/photo24.jpg",
     caption: "I wish I could hug you tight right now… I miss you so much 💌",
