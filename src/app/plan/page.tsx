@@ -1,7 +1,6 @@
 "use client";
 
 import { AnimatePresence } from "framer-motion";
-import BackgroundMusic from "@/components/BackgroundMusic";
 import { Box } from "@mui/material";
 import ResponsivePolaroidCarousel from "@/components/ResponsivePolaroidCarousel";
 import ValentinePathBuilder from "@/components/ValentinePathBuilder";
