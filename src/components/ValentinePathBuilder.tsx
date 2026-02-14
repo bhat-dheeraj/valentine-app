@@ -561,7 +561,7 @@ export default function ValentinePathBuilder({
           {/* Summary */}
           <Box sx={{ mt: 4 }}>
             <Typography variant="h6" sx={{ mb: 1 }}>
-              Your plan ❤️
+              Your choices ❤️
             </Typography>
 
             {/* Cute progress indicator (no fixed target) */}
