@@ -223,7 +223,7 @@ const polaroids2 = [
   },
   {
     src: "/images/babySpecial/photo-bb-9.jpg",
-    caption: "That smile is so charming. It fixes my worst days in seconds 🥰",
+    caption: "That laugh is so beautiful. It fixes my worst days in seconds 🥰",
   },
   {
     src: "/images/babySpecial/photo-bb-10.jpg",
