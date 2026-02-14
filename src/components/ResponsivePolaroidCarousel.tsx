@@ -99,9 +99,6 @@ const polaroids = [
     src: "/images/together/photo23.jpg",
     caption: "Walking down the aisle with you felt like a dream ❤️",
   },
-];
-
-const polaroids2 = [
   {
     src: "/images/baby/photo1.jpg",
     caption: "How can someone be this beautiful? 💕",
@@ -117,10 +114,6 @@ const polaroids2 = [
   {
     src: "/images/baby/photo4.jpg",
     caption: "You looked chooooo cute in that shawl 😍",
-  },
-  {
-    src: "/images/baby/photo5.jpg",
-    caption: "That's my cool and gorgeous wifeyyy 😎❤️",
   },
   {
     src: "/images/baby/photo6.jpg",
@@ -155,10 +148,6 @@ const polaroids2 = [
     caption: "My baby in the wild and I love it 😋",
   },
   {
-    src: "/images/baby/photo14.jpg",
-    caption: "You look ridiculously cute when you sleep 🥺",
-  },
-  {
     src: "/images/baby/photo15.jpg",
     caption:
       "How can someone be this beautiful and this goofy at the same time? 😍",
@@ -175,18 +164,108 @@ const polaroids2 = [
     src: "/images/baby/photo21.png",
     caption: "You, me, and the beautiful scenary around us. Perfect 🌍❤️",
   },
-  {
-    src: "/images/baby/photo22.jpg",
-    caption: "Theru with you was pure happiness 💕",
-  },
   { src: "/images/baby/photo23.jpg", caption: "Twinnnnnning with my babyyy😍" },
   {
     src: "/images/baby/photo24.jpg",
-    caption: "I wish I could hug you tight right now… I miss you so much 💌",
+    caption: "I wish I could hug you tightly right now… I miss you so much 💌",
   },
   {
     src: "/images/baby/photo25.jpg",
     caption: "Missing you a little extra today ❤️",
+  },
+];
+
+const polaroids2 = [
+  {
+    src: "/images/babySpecial/photo-bb-1.jpg",
+    caption: "This is my snuggleboo. The love of my life 😍",
+  },
+  {
+    src: "/images/babySpecial/photo-bb-2.jpg",
+    caption: "She is the most prettiest girl in the world. No debate.",
+  },
+  {
+    src: "/images/babySpecial/photo-bb-3.jpg",
+    caption:
+      "She's brilliant and smart. And And somehow... she’s always right.",
+  },
+  {
+    src: "/images/babySpecial/photo-bb-4.png",
+    caption:
+      "She doesn't even try and still looks this beautiful. It's unfair honestly.",
+  },
+  {
+    src: "/images/babySpecial/photo-bb-21.jpg",
+    caption: "I could stare into her eyes forever and still not get tired.",
+  },
+  {
+    src: "/images/babySpecial/photo-bb-5.png",
+    caption: "She's effortlessly hot and she doesn't even have to try 🔥",
+  },
+  {
+    src: "/images/babySpecial/photo-bb-6.png",
+    caption:
+      "Confidence level: high. Gaming skills: even higher. 😎",
+  },
+  {
+    src: "/images/babySpecial/photo-bb-7.png",
+    caption:
+      "She got everything. Style, swag, and grace. Oh my god look at her 😍",
+  },
+  {
+    src: "/images/babySpecial/photo-bb-8.jpg",
+    caption: "She takes my breath away every single time I look at her 💕",
+  },
+  {
+    src: "/images/babySpecial/photo-bb-9.jpg",
+    caption: "That smile is so charming. It fixes my worst days in seconds 🥰",
+  },
+  {
+    src: "/images/babySpecial/photo-bb-10.jpg",
+    caption: "She absolutely loves her sneakers and hoodies. ",
+  },
+  {
+    src: "/images/babySpecial/photo-bb-11.jpg",
+    caption:
+      "She prefers the dark. Lights off. Peace mode on. That's her comfort zone 🌙",
+  },
+  {
+    src: "/images/babySpecial/photo-bb-12.jpg",
+    caption: "An adventurer at heart. Always ready for the next journey ✈️",
+  },
+  {
+    src: "/images/babySpecial/photo-bb-13.jpg",
+    caption: "A true foodie and somehow always chooses the best dishes ever",
+  },
+  {
+    src: "/images/babySpecial/photo-bb-14.jpg",
+    caption: "She loves her sleep and looks so damn cute doing it 🥺",
+  },
+  {
+    src: "/images/babySpecial/photo-bb-15.jpg",
+    caption: "Massage time is her favorite time. Anytime. Anywhere.",
+  },
+  {
+    src: "/images/babySpecial/photo-bb-16.jpg",
+    caption:
+      "And oh yes. She loves her Darshan Raval. I'm only slightly jealous 😏",
+  },
+  {
+    src: "/images/babySpecial/photo-bb-17.png",
+    caption:
+      "She makes friends in seconds. Her charm and personality is just magnetic ✨",
+  },
+  {
+    src: "/images/babySpecial/photo-bb-18.jpg",
+    caption: "She is just amazingly good at whatever she does.",
+  },
+  {
+    src: "/images/babySpecial/photo-bb-19.jpg",
+    caption: "My wife. My partner. My greatest blessing in this lifetime 💍❤️",
+  },
+  {
+    src: "/images/babySpecial/photo-bb-20.jpg",
+    caption: "And right now I miss her more than words can ever explain 💌",
   },
 ];
 
@@ -214,7 +293,7 @@ export default function ResponsivePolaroidCarousel({
         loop
         speed={5000}
         autoplay={{
-          delay: 0,
+          delay: 2000,
           disableOnInteraction: false,
           reverseDirection: reverse,
         }}
@@ -241,7 +320,7 @@ export default function ResponsivePolaroidCarousel({
                 </Box>
               </SwiperSlide>
             ))
-          : polaroids.map((item, index) => (
+          : polaroids.reverse().map((item, index) => (
               <SwiperSlide key={index}>
                 <Box
                   sx={{
