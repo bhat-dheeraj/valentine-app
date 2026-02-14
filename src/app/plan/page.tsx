@@ -28,7 +28,7 @@ export default function Plan() {
               overflow: "hidden",
             }}
           >
-            <ResponsivePolaroidCarousel reverse />
+            <ResponsivePolaroidCarousel secondCarousal={true} />
           </Box>
 
           <Box
@@ -52,7 +52,7 @@ export default function Plan() {
               overflow: "hidden",
             }}
           >
-            <ResponsivePolaroidCarousel secondCarousal={true} />
+            <ResponsivePolaroidCarousel reverse />
           </Box>
         </Box>
       </AnimatePresence>
